@@ -1,4 +1,22 @@
 state,district,stage,type,date,schools
+Malaysia,All Districts,primary,Sekolah Rendah Kerajaan,2017-01-01,7776
+Malaysia,All Districts,primary,Sekolah Rendah Kerajaan,2018-01-01,7774
+Malaysia,All Districts,primary,Sekolah Rendah Kerajaan,2019-01-01,7773
+Malaysia,All Districts,primary,Sekolah Rendah Kerajaan,2020-01-01,7780
+Malaysia,All Districts,primary,Sekolah Rendah Kerajaan,2021-01-01,7780
+Malaysia,All Districts,primary,Sekolah Rendah Kerajaan,2022-01-01,7778
+Malaysia,All Districts,secondary,Sekolah Menengah Kerajaan,2017-01-01,2416
+Malaysia,All Districts,secondary,Sekolah Menengah Kerajaan,2018-01-01,2433
+Malaysia,All Districts,secondary,Sekolah Menengah Kerajaan,2019-01-01,2439
+Malaysia,All Districts,secondary,Sekolah Menengah Kerajaan,2020-01-01,2440
+Malaysia,All Districts,secondary,Sekolah Menengah Kerajaan,2021-01-01,2444
+Malaysia,All Districts,secondary,Sekolah Menengah Kerajaan,2022-01-01,2452
+Malaysia,All Districts,tertiary,IPTA,2017-01-01,20
+Malaysia,All Districts,tertiary,IPTA,2018-01-01,20
+Malaysia,All Districts,tertiary,IPTA,2019-01-01,20
+Malaysia,All Districts,tertiary,IPTA,2020-01-01,20
+Malaysia,All Districts,tertiary,IPTA,2021-01-01,20
+Malaysia,All Districts,tertiary,IPTA,2022-01-01,20
 Johor,All Districts,primary,Sekolah Rendah Kerajaan,2017-01-01,906
 Johor,All Districts,primary,Sekolah Rendah Kerajaan,2018-01-01,907
 Johor,All Districts,primary,Sekolah Rendah Kerajaan,2019-01-01,907
