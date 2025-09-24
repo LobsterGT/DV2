@@ -1,289 +1,97 @@
 "state","district","stage","type","date","schools"
-"Johor","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",906
-"Johor","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",907
-"Johor","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",907
-"Johor","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",906
-"Johor","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",906
-"Johor","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",908
 "Johor","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",277
 "Johor","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",280
 "Johor","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",282
 "Johor","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",283
 "Johor","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",284
 "Johor","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",284
-"Johor","All Districts","tertiary","IPTA","2017-01-01",2
-"Johor","All Districts","tertiary","IPTA","2018-01-01",2
-"Johor","All Districts","tertiary","IPTA","2019-01-01",2
-"Johor","All Districts","tertiary","IPTA","2020-01-01",2
-"Johor","All Districts","tertiary","IPTA","2021-01-01",2
-"Johor","All Districts","tertiary","IPTA","2022-01-01",2
-"Kedah","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",546
-"Kedah","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",547
-"Kedah","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",547
-"Kedah","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",548
-"Kedah","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",548
-"Kedah","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",548
 "Kedah","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",201
 "Kedah","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",201
 "Kedah","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",202
 "Kedah","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",202
 "Kedah","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",203
 "Kedah","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",204
-"Kedah","All Districts","tertiary","IPTA","2017-01-01",1
-"Kedah","All Districts","tertiary","IPTA","2018-01-01",1
-"Kedah","All Districts","tertiary","IPTA","2019-01-01",1
-"Kedah","All Districts","tertiary","IPTA","2020-01-01",1
-"Kedah","All Districts","tertiary","IPTA","2021-01-01",1
-"Kedah","All Districts","tertiary","IPTA","2022-01-01",1
-"Kelantan","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",418
-"Kelantan","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",418
-"Kelantan","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",418
-"Kelantan","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",418
-"Kelantan","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",418
-"Kelantan","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",418
 "Kelantan","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",175
 "Kelantan","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",177
 "Kelantan","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",177
 "Kelantan","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",177
 "Kelantan","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",178
 "Kelantan","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",178
-"Kelantan","All Districts","tertiary","IPTA","2017-01-01",1
-"Kelantan","All Districts","tertiary","IPTA","2018-01-01",1
-"Kelantan","All Districts","tertiary","IPTA","2019-01-01",1
-"Kelantan","All Districts","tertiary","IPTA","2020-01-01",1
-"Kelantan","All Districts","tertiary","IPTA","2021-01-01",1
-"Kelantan","All Districts","tertiary","IPTA","2022-01-01",1
-"Melaka","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",237
-"Melaka","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",237
-"Melaka","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",238
-"Melaka","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",238
-"Melaka","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",238
-"Melaka","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",238
 "Melaka","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",77
 "Melaka","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",77
 "Melaka","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",77
 "Melaka","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",77
 "Melaka","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",77
 "Melaka","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",78
-"Melaka","All Districts","tertiary","IPTA","2017-01-01",1
-"Melaka","All Districts","tertiary","IPTA","2018-01-01",1
-"Melaka","All Districts","tertiary","IPTA","2019-01-01",1
-"Melaka","All Districts","tertiary","IPTA","2020-01-01",1
-"Melaka","All Districts","tertiary","IPTA","2021-01-01",1
-"Melaka","All Districts","tertiary","IPTA","2022-01-01",1
-"Negeri Sembilan","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",350
-"Negeri Sembilan","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",350
-"Negeri Sembilan","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",350
-"Negeri Sembilan","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",352
-"Negeri Sembilan","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",352
-"Negeri Sembilan","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",353
 "Negeri Sembilan","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",125
 "Negeri Sembilan","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",125
 "Negeri Sembilan","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",125
 "Negeri Sembilan","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",125
 "Negeri Sembilan","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",125
 "Negeri Sembilan","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",126
-"Negeri Sembilan","All Districts","tertiary","IPTA","2017-01-01",1
-"Negeri Sembilan","All Districts","tertiary","IPTA","2018-01-01",1
-"Negeri Sembilan","All Districts","tertiary","IPTA","2019-01-01",1
-"Negeri Sembilan","All Districts","tertiary","IPTA","2020-01-01",1
-"Negeri Sembilan","All Districts","tertiary","IPTA","2021-01-01",1
-"Negeri Sembilan","All Districts","tertiary","IPTA","2022-01-01",1
-"Pahang","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",541
-"Pahang","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",541
-"Pahang","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",542
-"Pahang","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",543
-"Pahang","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",543
-"Pahang","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",543
 "Pahang","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",196
 "Pahang","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",197
 "Pahang","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",198
 "Pahang","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",198
 "Pahang","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",198
 "Pahang","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",198
-"Pahang","All Districts","tertiary","IPTA","2017-01-01",1
-"Pahang","All Districts","tertiary","IPTA","2018-01-01",1
-"Pahang","All Districts","tertiary","IPTA","2019-01-01",1
-"Pahang","All Districts","tertiary","IPTA","2020-01-01",1
-"Pahang","All Districts","tertiary","IPTA","2021-01-01",1
-"Pahang","All Districts","tertiary","IPTA","2022-01-01",1
-"Perak","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",852
-"Perak","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",852
-"Perak","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",852
-"Perak","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",852
-"Perak","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",852
-"Perak","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",852
 "Perak","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",248
 "Perak","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",250
 "Perak","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",250
 "Perak","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",250
 "Perak","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",250
 "Perak","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",253
-"Perak","All Districts","tertiary","IPTA","2017-01-01",1
-"Perak","All Districts","tertiary","IPTA","2018-01-01",1
-"Perak","All Districts","tertiary","IPTA","2019-01-01",1
-"Perak","All Districts","tertiary","IPTA","2020-01-01",1
-"Perak","All Districts","tertiary","IPTA","2021-01-01",1
-"Perak","All Districts","tertiary","IPTA","2022-01-01",1
-"Perlis","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",74
-"Perlis","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",74
-"Perlis","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",74
-"Perlis","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",74
-"Perlis","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",74
-"Perlis","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",74
 "Perlis","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",30
 "Perlis","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",30
 "Perlis","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",30
 "Perlis","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",30
 "Perlis","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",30
 "Perlis","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",30
-"Perlis","All Districts","tertiary","IPTA","2017-01-01",1
-"Perlis","All Districts","tertiary","IPTA","2018-01-01",1
-"Perlis","All Districts","tertiary","IPTA","2019-01-01",1
-"Perlis","All Districts","tertiary","IPTA","2020-01-01",1
-"Perlis","All Districts","tertiary","IPTA","2021-01-01",1
-"Perlis","All Districts","tertiary","IPTA","2022-01-01",1
-"Pulau Pinang","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",271
-"Pulau Pinang","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",271
-"Pulau Pinang","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",271
-"Pulau Pinang","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",271
-"Pulau Pinang","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",271
-"Pulau Pinang","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",270
 "Pulau Pinang","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",127
 "Pulau Pinang","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",128
 "Pulau Pinang","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",128
 "Pulau Pinang","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",128
 "Pulau Pinang","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",129
 "Pulau Pinang","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",128
-"Pulau Pinang","All Districts","tertiary","IPTA","2017-01-01",1
-"Pulau Pinang","All Districts","tertiary","IPTA","2018-01-01",1
-"Pulau Pinang","All Districts","tertiary","IPTA","2019-01-01",1
-"Pulau Pinang","All Districts","tertiary","IPTA","2020-01-01",1
-"Pulau Pinang","All Districts","tertiary","IPTA","2021-01-01",1
-"Pulau Pinang","All Districts","tertiary","IPTA","2022-01-01",1
-"Sabah","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",1074
-"Sabah","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",1074
-"Sabah","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",1074
-"Sabah","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",1075
-"Sabah","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",1075
-"Sabah","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",1075
 "Sabah","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",219
 "Sabah","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",222
 "Sabah","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",222
 "Sabah","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",222
 "Sabah","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",221
 "Sabah","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",221
-"Sabah","All Districts","tertiary","IPTA","2017-01-01",1
-"Sabah","All Districts","tertiary","IPTA","2018-01-01",1
-"Sabah","All Districts","tertiary","IPTA","2019-01-01",1
-"Sabah","All Districts","tertiary","IPTA","2020-01-01",1
-"Sabah","All Districts","tertiary","IPTA","2021-01-01",1
-"Sabah","All Districts","tertiary","IPTA","2022-01-01",1
-"Sarawak","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",1264
-"Sarawak","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",1265
-"Sarawak","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",1265
-"Sarawak","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",1265
-"Sarawak","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",1265
-"Sarawak","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",1265
 "Sarawak","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",190
 "Sarawak","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",192
 "Sarawak","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",193
 "Sarawak","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",193
 "Sarawak","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",193
 "Sarawak","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",193
-"Sarawak","All Districts","tertiary","IPTA","2017-01-01",1
-"Sarawak","All Districts","tertiary","IPTA","2018-01-01",1
-"Sarawak","All Districts","tertiary","IPTA","2019-01-01",1
-"Sarawak","All Districts","tertiary","IPTA","2020-01-01",1
-"Sarawak","All Districts","tertiary","IPTA","2021-01-01",1
-"Sarawak","All Districts","tertiary","IPTA","2022-01-01",1
-"Selangor","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",659
-"Selangor","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",661
-"Selangor","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",661
-"Selangor","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",662
-"Selangor","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",663
-"Selangor","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",661
 "Selangor","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",277
 "Selangor","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",278
 "Selangor","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",278
 "Selangor","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",278
 "Selangor","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",278
 "Selangor","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",279
-"Selangor","All Districts","tertiary","IPTA","2017-01-01",4
-"Selangor","All Districts","tertiary","IPTA","2018-01-01",4
-"Selangor","All Districts","tertiary","IPTA","2019-01-01",4
-"Selangor","All Districts","tertiary","IPTA","2020-01-01",4
-"Selangor","All Districts","tertiary","IPTA","2021-01-01",4
-"Selangor","All Districts","tertiary","IPTA","2022-01-01",4
-"Terengganu","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",352
-"Terengganu","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",352
-"Terengganu","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",352
-"Terengganu","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",352
-"Terengganu","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",352
-"Terengganu","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",352
 "Terengganu","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",150
 "Terengganu","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",151
 "Terengganu","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",152
 "Terengganu","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",152
 "Terengganu","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",153
 "Terengganu","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",154
-"Terengganu","All Districts","tertiary","IPTA","2017-01-01",2
-"Terengganu","All Districts","tertiary","IPTA","2018-01-01",2
-"Terengganu","All Districts","tertiary","IPTA","2019-01-01",2
-"Terengganu","All Districts","tertiary","IPTA","2020-01-01",2
-"Terengganu","All Districts","tertiary","IPTA","2021-01-01",2
-"Terengganu","All Districts","tertiary","IPTA","2022-01-01",2
-"Kuala Lumpur","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",201
-"Kuala Lumpur","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",194
-"Kuala Lumpur","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",191
-"Kuala Lumpur","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",191
-"Kuala Lumpur","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",190
-"Kuala Lumpur","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",188
 "Kuala Lumpur","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",103
 "Kuala Lumpur","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",104
 "Kuala Lumpur","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",104
 "Kuala Lumpur","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",104
 "Kuala Lumpur","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",104
 "Kuala Lumpur","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",104
-"Kuala Lumpur","All Districts","tertiary","IPTA","2017-01-01",2
-"Kuala Lumpur","All Districts","tertiary","IPTA","2018-01-01",2
-"Kuala Lumpur","All Districts","tertiary","IPTA","2019-01-01",2
-"Kuala Lumpur","All Districts","tertiary","IPTA","2020-01-01",2
-"Kuala Lumpur","All Districts","tertiary","IPTA","2021-01-01",2
-"Kuala Lumpur","All Districts","tertiary","IPTA","2022-01-01",2
-"Labuan","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",17
-"Labuan","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",17
-"Labuan","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",17
-"Labuan","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",17
-"Labuan","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",17
-"Labuan","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",17
 "Labuan","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",10
 "Labuan","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",10
 "Labuan","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",10
 "Labuan","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",10
 "Labuan","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",10
 "Labuan","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",11
-"Labuan","All Districts","tertiary","IPTA","2017-01-01",0
-"Labuan","All Districts","tertiary","IPTA","2018-01-01",0
-"Labuan","All Districts","tertiary","IPTA","2019-01-01",0
-"Labuan","All Districts","tertiary","IPTA","2020-01-01",0
-"Labuan","All Districts","tertiary","IPTA","2021-01-01",0
-"Labuan","All Districts","tertiary","IPTA","2022-01-01",0
-"Putrajaya","All Districts","primary","Sekolah Rendah Kerajaan","2017-01-01",14
-"Putrajaya","All Districts","primary","Sekolah Rendah Kerajaan","2018-01-01",14
-"Putrajaya","All Districts","primary","Sekolah Rendah Kerajaan","2019-01-01",14
-"Putrajaya","All Districts","primary","Sekolah Rendah Kerajaan","2020-01-01",16
-"Putrajaya","All Districts","primary","Sekolah Rendah Kerajaan","2021-01-01",16
-"Putrajaya","All Districts","primary","Sekolah Rendah Kerajaan","2022-01-01",16
 "Putrajaya","All Districts","secondary","Sekolah Menengah Kerajaan","2017-01-01",11
 "Putrajaya","All Districts","secondary","Sekolah Menengah Kerajaan","2018-01-01",11
 "Putrajaya","All Districts","secondary","Sekolah Menengah Kerajaan","2019-01-01",11
 "Putrajaya","All Districts","secondary","Sekolah Menengah Kerajaan","2020-01-01",11
 "Putrajaya","All Districts","secondary","Sekolah Menengah Kerajaan","2021-01-01",11
 "Putrajaya","All Districts","secondary","Sekolah Menengah Kerajaan","2022-01-01",11
-"Putrajaya","All Districts","tertiary","IPTA","2017-01-01",0
-"Putrajaya","All Districts","tertiary","IPTA","2018-01-01",0
-"Putrajaya","All Districts","tertiary","IPTA","2019-01-01",0
-"Putrajaya","All Districts","tertiary","IPTA","2020-01-01",0
-"Putrajaya","All Districts","tertiary","IPTA","2021-01-01",0
-"Putrajaya","All Districts","tertiary","IPTA","2022-01-01",0
