@@ -19,15 +19,17 @@
   },
   "encoding": {
     "x": {
-      "field": "year",
-      "type": "temporal",
+      "field": "Year",
+      "type": "ordinal",
       "title": "Year"
     },
     "y": {
       "field": "average_enrol",
       "type": "quantitative",
       "title": "Average enrolment"
-    }
+    },
+    "tooltip": [{"field": "average_enrol"}]
   },
+  
   "config": {}
 }
