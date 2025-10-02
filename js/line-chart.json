@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/gender-gap-education-levels.csv"
+    "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/gender_gap.csv"
   },
   "width": "container",
   "transform": [
@@ -9,7 +9,7 @@
       "filter": "datum.Entity == 'Malaysia'"
     },
     {
-      "calculate": "(datum['Combined total net enrolment rate, primary, female'] + datum['Combined total net enrolment rate, primary, male'] + datum['Net enrolment rate in lower secondary education among boys'] + datum['Net enrolment rate in lower secondary education among girls'] + datum['Net enrolment rate in upper secondary education among boys'] + datum['Net enrolment rate in upper secondary education among girls']) / 6",
+      "calculate": "(datum.tertiary_education_female + datum.tertiary_education_male + datum.primary_female + datum.primary_male + datum.lower_secondary_education_boys + datum.lower_secondary_education_girls + datum.upper_secondary_education_boys + datum.upper_secondary_education_girls) / 8",
       "as": "average_enrol"
     }
   ],
