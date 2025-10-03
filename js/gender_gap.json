@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Total Enrolment In School By Gender",
   "data": {
     "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/gender_gap.csv"
   },

@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Government Spending On Education",
   "data": {
     "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/share-of-education-in-government-expenditure.csv"
   },
