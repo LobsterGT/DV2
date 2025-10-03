@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/graduate_number.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Age Group",
+      "type": "ordinal",
+      "title": "Age Group"
+    },
+    "x": {
+      "field": "No. of graduates ('000)",
+      "type": "quantitative",
+      "title": "Population",
+      "axis": {"format": "s"}
+    },
+    "color": {
+      "field": "Sex",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {"field": "Sex"},
+      {"field": "Age Group"},
+      {"field": "No. of graduates ('000)"}
+    ]
+  },
+  "config": {}
+}

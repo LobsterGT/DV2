@@ -84,7 +84,21 @@
           <div id="area_chart" class="vis-container"></div>
         </div>
       </div>
+
+    <!--Butterfly Chart(Number of graduates) -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+          <div class="description description-left">
+            <h2>Two Columns Layout</h2>
+            <p>The first column contains text and the second column contains a visualisation.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
+          </div>
       </div>
+        <div class="pure-u-1-2">
+          <div id="butterfly_chart" class="vis-container"></div>
+        </div>
     </div>
 
   </div>
@@ -94,6 +108,7 @@
     var vg_1 = "js/school_district.json";
     var vg_2 = "js/gender_gap.json";
     var vg_3 = "js/government_spending.json";
+    var vg_4 = "js/graduate_number.json"
 
     vegaEmbed("#choropleth_map", vg_1, { "actions": false }).then(function(result) {
         // Access the Vega view instance
@@ -107,6 +122,11 @@
     }).catch(console.error);
 
     vegaEmbed("#area_chart", vg_3, { "actions": false }).then(function(result) {
+        // Access the Vega view instance
+        // (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  
+    vegaEmbed("#butterfly_chart", vg_4, { "actions": false }).then(function(result) {
         // Access the Vega view instance
         // (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
