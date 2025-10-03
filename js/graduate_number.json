@@ -1,30 +1,61 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/graduate_number.csv"
+    "values": [
+      {"Sex":"Male","Education level":"Degree","Age Group":"0-24","Year":2016,"No. of graduates ('000)":60.1},
+      {"Sex":"Male","Education level":"Degree","Age Group":"25 - 34","Year":2016,"No. of graduates ('000)":399.1},
+      {"Sex":"Male","Education level":"Degree","Age Group":"35 - 44","Year":2016,"No. of graduates ('000)":268},
+      {"Sex":"Male","Education level":"Degree","Age Group":"45-100","Year":2016,"No. of graduates ('000)":297.3},
+      {"Sex":"Male","Education level":"Diploma","Age Group":"less than or equal 24","Year":2016,"No. of graduates ('000)":218.4},
+      {"Sex":"Male","Education level":"Diploma","Age Group":"25 - 34","Year":2016,"No. of graduates ('000)":405},
+      {"Sex":"Female","Education level":"Degree","Age Group":"less than or equal 24","Year":2016,"No. of graduates ('000)":90.2},
+      {"Sex":"Female","Education level":"Degree","Age Group":"25 - 34","Year":2016,"No. of graduates ('000)":576.7},
+      {"Sex":"Female","Education level":"Diploma","Age Group":"25 - 34","Year":2016,"No. of graduates ('000)":320.5},
+      {"Sex":"Female","Education level":"Diploma","Age Group":"greater than or equal 45","Year":2016,"No. of graduates ('000)":150.7},
+      {"Sex":"Male","Education level":"Degree","Age Group":"less than or equal 24","Year":2017,"No. of graduates ('000)":62.0},
+      {"Sex":"Male","Education level":"Degree","Age Group":"25 - 34","Year":2017,"No. of graduates ('000)":410.0},
+      {"Sex":"Female","Education level":"Degree","Age Group":"less than or equal 24","Year":2017,"No. of graduates ('000)":95.5},
+      {"Sex":"Female","Education level":"Degree","Age Group":"25 - 34","Year":2017,"No. of graduates ('000)":590.2}
+    ]
   },
+  "params": [
+    {
+      "name": "Select_Year",
+      "bind": {
+        "input": "select",
+        "options": [2016, 2017, 2018, 2019, 2020],
+        "labels": ["2016","2017","2018","2019","2020"],
+        "name": "Select Year: "
+      }
+    },
+    {
+      "name": "Education_level",
+      "bind": {
+        "input": "select",
+        "options": ["Degree", "Diploma"],
+        "labels": ["Degree", "Diploma"],
+        "name": "Education Level: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Year == Select_Year"},
+    {"filter": "datum['Education level'] == Education_level"}
+  ],
   "mark": "bar",
   "encoding": {
-    "y": {
-      "field": "Age Group",
-      "type": "ordinal",
-      "title": "Age Group"
-    },
+    "y": {"field": "Age Group", "type": "ordinal", "title": "Age Group"},
     "x": {
       "field": "No. of graduates ('000)",
       "type": "quantitative",
       "title": "Population",
       "axis": {"format": "s"}
     },
-    "color": {
-      "field": "Sex",
-      "type": "nominal"
-    },
+    "color": {"field": "Sex", "type": "nominal"},
     "tooltip": [
       {"field": "Sex"},
       {"field": "Age Group"},
       {"field": "No. of graduates ('000)"}
     ]
-  },
-  "config": {}
+  }
 }
