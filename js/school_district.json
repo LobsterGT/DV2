@@ -4,22 +4,18 @@
   "width": "container",
   "height": 300,
   "projection": {
-    "type": "equalEarth",
-    "center": [110, 4],
-    "scale": 1100
+    "type": "equalEarth"
   },
   "layer": [
     {
-      "data": {"graticule": {"step": [5, 5]}},
-      "mark": {
-        "type": "geoshape",
-        "stroke": "#ccc",
-        "strokeWidth": 0.5
+      "data": {
+        "url": "https://raw.githubusercontent.com/LobsterGT/DV_Homework/refs/heads/main/js/output.json",
+        "format": {"type": "topojson"}
       }
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/LobsterGT/DV_Homework/refs/heads/main/js/ne_2.json",
+        "url": "https://raw.githubusercontent.com/LobsterGT/DV_Homework/refs/heads/main/js/ne_1.json",
         "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
       },
       "transform": [
