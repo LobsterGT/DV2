@@ -13,13 +13,6 @@
         {"op": "mean", "field": "students", "as": "avg_students"}
       ],
       "groupby": ["stage"]
-    },
-    {
-      "window": [{"op": "sum", "field": "avg_students", "as": "total"}]
-    },
-    {
-      "calculate": "datum.avg_students / total * 100",
-      "as": "percent"
     }
   ],
   "mark": {
@@ -29,7 +22,6 @@
   "encoding": {
     "theta": {"field": "avg_students", "type": "quantitative"},
     "color": {"field": "stage", "type": "nominal"},
-    "text": {"field": "percent", "type": "quantitative", "format": ".1f"},
     "tooltip": [
       {"field": "stage", "title": "Stage"},
       {"field": "avg_students", "type": "quantitative", "title": "Average enrolment"}
