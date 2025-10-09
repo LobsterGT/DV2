@@ -9,9 +9,10 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/LobsterGT/DV_Homework/refs/heads/main/js/output.json",
-        "format": {"type": "topojson"}
-      }
+        "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/js/ne_11.json",
+        "format": {"type": "topojson", "feature": "graticule"}
+      },
+      "mark": {"type": "geoshape", "stroke": "black"}
     },
     {
       "data": {
