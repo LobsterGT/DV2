@@ -2,7 +2,13 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Male & Female Graduates Of Each Age Group",
   "width": "container",
-  "height": 300,
+  "height": 200,
+  "config": {
+    "title": {
+      "fontSize": 18,
+      "font": "Serif"
+    }
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/graduate_number.csv"
   },

@@ -2,14 +2,20 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Number Of Schools in Malaysia",
   "width": "container",
-  "height": 300,
+  "height": 200,
   "projection": {
     "type": "equalEarth"
+  },
+    "config": {
+    "title": {
+      "fontSize": 18,
+      "font": "Serif"
+    }
   },
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/js/ne_11.json",
+        "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/js/graticule.json",
         "format": {"type": "topojson", "feature": "graticule"}
       },
       "mark": {"type": "geoshape", "stroke": "black"}
@@ -40,14 +46,19 @@
         "color": {
           "field": "schools_per_100km2",
           "type": "quantitative",
-          "scale": {"type": "log"}
+          "scale": {"type": "log"},
+          "legend": {
+            "title": "Schools per 100 km²" 
+          }
         },
+        
         "tooltip": [
           {"field": "properties.name", "type": "nominal", "title": "State"},
           {
             "field": "schools_per_100km2",
             "type": "quantitative",
-            "title": "Schools per 100 km²"
+            "title": "Schools per 100 km²",
+            "format": ",.2f"
           }
         ]
       }

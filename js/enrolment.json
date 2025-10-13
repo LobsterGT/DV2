@@ -2,6 +2,13 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Enrolment Of Different Stage Of Education",
   "width": "container",
+  "height": 200,
+  "config": {
+    "title": {
+      "fontSize": 18,
+      "font": "Serif"
+    }
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/enrolment_school_district.csv"
   },
@@ -15,16 +22,41 @@
       "groupby": ["stage"]
     }
   ],
-  "mark": {
-    "type": "arc",
-    "innerRadius": 60
-  },
-  "encoding": {
-    "theta": {"field": "avg_students", "type": "quantitative"},
-    "color": {"field": "stage", "type": "nominal"},
-    "tooltip": [
-      {"field": "stage", "title": "Stage"},
-      {"field": "avg_students", "type": "quantitative", "title": "Average enrolment"}
-    ]
-  }
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 60
+      },
+      "encoding": {
+        "theta": {"field": "avg_students", "type": "quantitative"},
+        "color": {"field": "stage", "type": "nominal"},
+        "tooltip": [
+          {"field": "stage", "title": "Stage"},
+          {"field": "avg_students", "type": "quantitative", "title": "Average enrolment", "format": ",.0f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "center", "baseline": "middle", "dx": 4, "dy": -20, "fontSize": "16", "color": "black"},
+      "encoding": {
+        "text": {"value": "Total Student:"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [{"op": "sum", "field": "avg_students", "as": "total_students"}]
+        },
+        {
+        "calculate": "format(datum.total_students, ',.0f')",
+        "as": "label"
+        }
+      ],
+      "mark": {"type": "text", "align": "center", "baseline": "middle", "dy": 10, "fontSize": "16", "color": "black"},
+      "encoding": {
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ]
 }

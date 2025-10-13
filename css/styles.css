@@ -2,9 +2,13 @@ body *{
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    font-weight: 900;
+.main-heading { /* This is more specific than h1 */
+    font-family: serif;
+    font-size: 48px; /* This should now work */
+    font-weight: bold;
+    text-align: center; 
 }
+
 
 body {
     background-color: lightgray;
@@ -28,17 +32,42 @@ h1 {
 }
 
 .description-right {
-    padding-left: 20px;
+    padding-left: 70px; 
+    align-items: center; 
+  /* 3. (Optional) Horizontally center the content if needed */
+  /* justify-content: center; */
+  
+  /* 4. CRUCIAL: Set the height of the column to match the chart's height 
+        (or ensure the column's height is determined by the row's height).
+        Assuming the chart is around 200px tall based on your Vega-Lite spec.
+  */
+    height: 100%; 
 }
 
 .description-left {
-    padding-right: 20px;
+    padding-right: 70px; 
 }
 
 .pure-g {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .small-font {
     font-size: 14px;
+}
+
+
+.vertical-center {
+  /* 1. Make it a flex container */
+  display: flex; 
+  /* 2. Vertically center the content (the .description-right div) */
+  align-items: center; 
+  /* 3. (Optional) Horizontally center the content if needed */
+  /* justify-content: center; */
+  
+  /* 4. CRUCIAL: Set the height of the column to match the chart's height 
+        (or ensure the column's height is determined by the row's height).
+        Assuming the chart is around 200px tall based on your Vega-Lite spec.
+  */
+  height: 100%; 
 }
