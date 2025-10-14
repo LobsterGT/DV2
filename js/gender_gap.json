@@ -5,7 +5,7 @@
     "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/gender_gap.csv"
   },
   "width": "container",
-  "height": 200,
+  "height": 300,
   "config": {
     "title": {
       "fontSize": 18,
@@ -22,14 +22,14 @@
         {"filter": "datum.Year >= 2000 && datum.Year <= 2022"},
         {
           "calculate": "(toNumber(datum.primary_male) + toNumber(datum.lower_secondary_education_boys) + toNumber(datum.upper_secondary_education_boys)) / 3",
-          "as": "male"
+          "as": "Male"
         },
         {
           "calculate": "(toNumber(datum.primary_female) + toNumber(datum.lower_secondary_education_girls) + toNumber(datum.upper_secondary_education_girls)) / 3",
-          "as": "female"
+          "as": "Female"
         },
         {
-          "fold": ["male", "female"],
+          "fold": ["Male", "Female"],
           "as": ["gender", "enrolment"]
         }
       ],
@@ -49,7 +49,7 @@
         "y": {
           "field": "enrolment",
           "type": "quantitative",
-          "title": "Average Enrolment"
+          "title": "Average Enrolment (%)"
         },
         "color": {
           "field": "gender",
@@ -72,14 +72,14 @@
         {"filter": "datum.Year >= 2000 && datum.Year <= 2022"},
         {
           "calculate": "(toNumber(datum.primary_male) + toNumber(datum.lower_secondary_education_boys) + toNumber(datum.upper_secondary_education_boys)) / 3",
-          "as": "male"
+          "as": "Male"
         },
         {
           "calculate": "(toNumber(datum.primary_female) + toNumber(datum.lower_secondary_education_girls) + toNumber(datum.upper_secondary_education_girls)) / 3",
-          "as": "female"
+          "as": "Female"
         },
         {
-          "fold": ["male", "female"],
+          "fold": ["Male", "Female"],
           "as": ["gender", "enrolment"]
         }
       ],
@@ -117,14 +117,14 @@
         {"filter": "datum.Year >= 2000 && datum.Year <= 2022"},
         {
           "calculate": "(toNumber(datum.primary_male) + toNumber(datum.lower_secondary_education_boys) + toNumber(datum.upper_secondary_education_boys)) / 3",
-          "as": "male"
+          "as": "Male"
         },
         {
           "calculate": "(toNumber(datum.primary_female) + toNumber(datum.lower_secondary_education_girls) + toNumber(datum.upper_secondary_education_girls)) / 3",
-          "as": "female"
+          "as": "Female"
         },
         {
-          "fold": ["male", "female"],
+          "fold": ["Male", "Female"],
           "as": ["gender", "enrolment"]
         },
         {
@@ -135,7 +135,7 @@
         {"calculate": "datum.max_record['Year']", "as": "maxYear"},
         {"calculate": "datum.max_record['enrolment']", "as": "maxEnrolment"},
         {
-          "calculate": "'Highest enrolment: ' + format(datum.maxEnrolment, ',.1f')",
+          "calculate": "'Highest enrolment: ' + format(datum.maxEnrolment, ',.1f') + '%'",
           "as": "label"
         }
       ],
@@ -160,14 +160,14 @@
       {"filter": "datum.Year >= 2000 && datum.Year <= 2022"},
       {
         "calculate": "(toNumber(datum.primary_male) + toNumber(datum.lower_secondary_education_boys) + toNumber(datum.upper_secondary_education_boys)) / 3",
-        "as": "male"
+        "as": "Male"
       },
       {
         "calculate": "(toNumber(datum.primary_female) + toNumber(datum.lower_secondary_education_girls) + toNumber(datum.upper_secondary_education_girls)) / 3",
-        "as": "female"
+        "as": "Female"
       },
       {
-        "fold": ["male", "female"],
+        "fold": ["Male", "Female"],
         "as": ["gender", "enrolment"]
       },
       {

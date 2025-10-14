@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Enrolment Of Different Stage Of Education",
   "width": "container",
-  "height": 200,
+  "height": 300,
   "config": {
     "title": {
       "fontSize": 18,
@@ -26,11 +26,11 @@
     {
       "mark": {
         "type": "arc",
-        "innerRadius": 60
+        "innerRadius": 90
       },
       "encoding": {
         "theta": {"field": "avg_students", "type": "quantitative"},
-        "color": {"field": "stage", "type": "nominal"},
+        "color": {"field": "stage", "type": "nominal", "legend": {"title": "Stage"}},
         "tooltip": [
           {"field": "stage", "title": "Stage"},
           {"field": "avg_students", "type": "quantitative", "title": "Average enrolment", "format": ",.0f"}

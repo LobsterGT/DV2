@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Male & Female Graduates Of Each Age Group",
   "width": "container",
-  "height": 200,
+  "height": 300,
   "config": {
     "title": {
       "fontSize": 18,
@@ -37,6 +37,7 @@
   "transform": [
     {"filter": "toNumber(datum.Year) == toNumber(Select_Year)"},
     {"filter": "datum['Education level'] == Education_level"},
+
     {
       "calculate": "datum['Age Group'] == 'less than or equal 24' ? '0 - 24' : datum['Age Group'] == 'greater than or equal 45' ? '45 - 100' : datum['Age Group']",
       "as": "AgeGroupLabel"
@@ -53,7 +54,8 @@
       "field": "graduate_number",
       "type": "quantitative",
       "title": "Number Of Graduates",
-      "axis": {"format": "s", "labelExpr": "abs(datum.value)"}
+      "axis": {"format": "s", "labelExpr": "abs(datum.value)"},
+      "scale": {"domain": [-700, 700]}
     },
     "color": {"field": "Sex", 
               "type": "nominal"

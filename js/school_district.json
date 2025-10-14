@@ -2,9 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Number Of Schools in Malaysia",
   "width": "container",
-  "height": 200,
+  "height": 300,
   "projection": {
-    "type": "equalEarth"
+    "type": "equirectangular"
   },
     "config": {
     "title": {
