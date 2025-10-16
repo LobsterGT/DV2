@@ -15,10 +15,10 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/js/ne_2.json",
+        "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/js/graticule.json",
         "format": {"type": "topojson", "feature": "graticule"}
       },
-      "mark": {"type": "geoshape", "stroke": "black"}
+      "mark": {"type": "geoshape", "stroke": "grey"}
     },
     {
       "data": {
@@ -46,7 +46,17 @@
         "color": {
           "field": "schools_per_100km2",
           "type": "quantitative",
-          "scale": {"type": "log"},
+          "scale": {
+            "type": "threshold",
+            "domain": [2, 5, 20, 100],
+            "range": [
+              "#FFFFE0",
+              "#87CEEB",   
+              "#00AEC7",
+              "#2569A5",   
+              "#063970"
+            ]
+          },
           "legend": {
             "title": "Schools per 100 km²" 
           }

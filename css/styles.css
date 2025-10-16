@@ -4,9 +4,16 @@ body *{
 
 .main-heading { /* This is more specific than h1 */
     font-family: serif;
-    font-size: 48px; /* This should now work */
-    font-weight: bold;
-    text-align: center; 
+    font-size: 2.5em;                     /* large and prominent */
+    font-weight: 700;                     /* bold for emphasis */
+    text-align: center;                   /* centered title */
+    color: #2c3e50;                       /* dark navy for readability */
+    margin: 40px auto 30px;   /* centers the block itself */    
+    letter-spacing: 1px;                  /* slight spacing for clarity */
+    text-transform: uppercase;            /* consistent uppercase style */
+    border-bottom: 3px solid #f4b183;     /* peach underline for subtle accent */
+    display: inline-block;                /* underline fits text width */
+    padding-bottom: 10px;                 /* space above underline */
 }
 
 
@@ -22,31 +29,12 @@ body {
     padding-top: 35px;
 }
 
-.vis-container {
-    width: 100%;
-}
 
 .description h2,
 h1 {
     margin-top: 0px;
 }
 
-.description-right {
-    padding-left: 20px; 
-    align-items: center; 
-  /* 3. (Optional) Horizontally center the content if needed */
-  /* justify-content: center; */
-  
-  /* 4. CRUCIAL: Set the height of the column to match the chart's height 
-        (or ensure the column's height is determined by the row's height).
-        Assuming the chart is around 200px tall based on your Vega-Lite spec.
-  */
-    height: 100%; 
-}
-
-.description-left {
-    padding-right: 20px; 
-}
 
 .pure-g {
     margin-bottom: 60px;
@@ -57,17 +45,52 @@ h1 {
 }
 
 
-.vertical-center {
-  /* 1. Make it a flex container */
-  display: flex; 
-  /* 2. Vertically center the content (the .description-right div) */
-  align-items: center; 
-  /* 3. (Optional) Horizontally center the content if needed */
-  /* justify-content: center; */
-  
-  /* 4. CRUCIAL: Set the height of the column to match the chart's height 
-        (or ensure the column's height is determined by the row's height).
-        Assuming the chart is around 200px tall based on your Vega-Lite spec.
-  */
-  height: 100%; 
+
+.vis-container {
+  width: 100%;
+  margin: 0 auto; /* space on left & right of chart */
+  min-height: 300px; /* set consistent chart height */
+}
+
+.description-right{
+  padding-left: 20px;
+  text-align: justify
+}
+
+.description-left{
+  padding-right: 20px;
+  text-align: justify
+}
+
+.annotation{
+  position: absolute;
+  text-align: justify;
+  top: 20%;               /* or use top: 20px if you prefer it at the top */
+  left: 45%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 12px 18px;
+  max-width: 250px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+
+.annotation1{
+  position: absolute;
+  text-align: justify;
+  top: 35%;               /* or use top: 20px if you prefer it at the top */
+  left: 45%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 12px 18px;
+  max-width: 250px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
   <script src="js/vega_lite_vis.js"></script>
@@ -28,80 +28,117 @@
   <div class="page">
     <!-- Title -->
     <div class="pure-g">
-      <div class="pure-u-1-1">
+      <div class="pure-u-1-1" style="text-align: center;">
         <h1 class="main-heading">Education In Malaysia (2000 - 2022)</h1>
       </div>
     </div>
 
-    <!-- Line Chart(gender gap) -->
-    <div class="pure-g vertical-center">
-      <div class="pure-u" style="width:60%">
-        <div id="line_chart" class="vis-container"></div>
-      </div>
-      <div class="pure-u" style="width:40%">
-        <div class="description description-right">
-          <p><strong>Female enrolment</strong> has consistently remained <strong>higher</strong> than male enrolment throughout the entire 
-            period from 2000 to 2022, with its highest point occurring in 2004 (91.3%). 
-            Both lines generally trended upward until around 2010 before showing a slow, slight decline in the later years. </p>
-        </div>
-      </div>
-    </div>
-
-
-
+    
       <!-- Choropleth Map(school district) -->
-    <div class="pure-g vertical-center">
-        <div class="pure-u" style="width:40%">
-          <div class="description description-left">
-            <p><strong>East Malaysia</strong> (Sabah and Sarawak) shows a consistently <strong>low</strong> school density (light yellow/pale green), 
-              indicating that states with large land areas tend to have fewer schools per 100 km2 </p>
-          </div>
+  <div class="pure-g vertical-center">
+    <div class="pure-u-1-1">
+      <div style="position: relative; width: 100%;">
+        
+        <!-- Vega-Lite Map -->
+        <div id="choropleth_map" class="vis-container"></div>
+
+        <!-- Centered Annotation -->
+        <div class="annotation">
+          The government should consider <strong>increasing</strong> the number of schools in <strong>East Malaysia</strong>, as the region currently has a significantly lower number of schools compared to Peninsular Malaysia.
         </div>
-        <div class="pure-u" style="width:60%">
-          <div id="choropleth_map" class="vis-container"></div>
-        </div>
+      </div>
     </div>
+  </div>
 
+    
+    <!-- Line Chart(gender gap) -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div style="position: relative; width: 100%;">
+          <div id="line_chart" class="vis-container"></div>
+          <div class="annotation1">
+            <strong><span style="color: #1f77b4;">Female</span></strong> enrolment has consistently remained <strong>higher</strong> than <strong><span style="color: #ff7f0e;">male</span></strong> enrolment throughout the entire 
+            period from 2000 to 2022, with its highest point occurring in 2004 (91.3%). 
+          </div>
+        </div>
 
-    <!-- Area Map(government spending) -->
-    <div class="pure-g vertical-center">
-      <div class="pure-u" style="width:60%">
-        <div id="area_chart" class="vis-container"></div>
+        <div class="description description-left">
+          <p>The government should introduce programs to encourage more <strong><span style="color: #ff7f0e;">male</span></strong> students to stay in school and pursue higher education, while continuing to support female students' progress.</p>
+        </div>
       </div>
-      <div class="pure-u" style="width:40%">
+      <div class="pure-u-1-2" >
+          <div id="area_chart" class="vis-container" style="margin-left: 20px;"></div>
           <div class="description description-right">
-            <p>Government spending on education peaked early in <strong>2002 at 25.9%</strong> then dropped significantly. 
-              It <strong>stabilized around 20%</strong> between 2011 and 2018 before dipping and recovering slightly in the final years.</p>
+            <p>The government should <strong>allocate more financial resources </strong>to the education sector to enhance school facilities, teacher training, and access to quality education across all regions.</p>
           </div>
       </div>
-      </div>
+    </div>
 
     <!--Butterfly Chart(Number of graduates) -->
-    <div class="pure-g vertical-center">
-      <div class="pure-u" style="width:40%">
-          <div class="description description-left">
-            <p>
-              The <strong>25-34 </strong>age group has been consistently <strong>the highest number</strong> of graduates for both genders. On the other hand, 
-              the <strong>0-24</strong> age group has the <strong>least</strong> number of graduates. Female graduates outnumber male graduates slightly.</p>
-          </div>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div id="donut_chart" class="vis-container"></div>
+        <div class="description description-left">
+          <p>The government should implement strategies to <strong>increase</strong> participation in <strong><span style="color: #ff7f0e;">post-secondary</span></strong> education. Strengthening <strong><span style="color: #ff7f0e;">post-secondary</span></strong> opportunities will help balance the student distribution across all educational stages.</p>
+        </div>
       </div>
-        <div class="pure-u" style="width:60%">
-          <div id="butterfly_chart" class="vis-container"></div>
+        <div class="pure-u-1-2">
+          <div id="butterfly_chart" class="vis-container" style="margin-left: 20px;"></div>
+          <div class="description description-right">
+            <p>
+              The government should consider investing in policies that support <strong>25-34 </strong>age group, ensuring continued access to higher education, training programs, and career advancement opportunities.</div>
         </div>
     </div>
 
-    <!--Donut Chart(Total Enrolment of different stage) -->
-    <div class="pure-g vertical-center">
-      <div class="pure-u" style="width:60%">
-        <div id="donut_chart" class="vis-container"></div>
-      </div>
-      <div class="pure-u" style="width:40%">
-          <div class="description description-right">
-            <p>The vast <strong>majority of the total student </strong>population (4,800,194) is concentrated in the <strong>Primary and Lower Secondary stages</strong>. The Post Secondary stage makes up only a negligible fraction of the total enrolment, 
-              being significantly smaller than both other stages combined.</p>
-          </div>
-      </div>
+    <div style="color: grey; font-size: 10px; margin-top: 20px;">
+      <p><strong>Author Name:</strong> Chin Xin Qing</p>
+      <p><strong>Data Source:</strong></p>
+      <p>
+        Number of Schools — 
+        <a href="https://open.dosm.gov.my/data-catalogue/schools_district?state=johor&district=all-districts&stage=secondary&type=sekolah-rendah-kerajaan&visual=table" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="color: grey; text-decoration: none;">
+          https://open.dosm.gov.my/data-catalogue/schools_district?state=johor&district=all-districts&stage=secondary&type=sekolah-rendah-kerajaan&visual=table
+        </a>
+      </p>
+      <p>
+        Enrolment By Gender — 
+        <a href="https://ourworldindata.org/grapher/gender-gap-education-levels?time=1991..latest" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="color: grey; text-decoration: none;">
+          https://ourworldindata.org/grapher/gender-gap-education-levels?time=1991..latest
+      </p>
+      <p>
+        Government Spending — 
+        <a href="https://ourworldindata.org/grapher/share-of-education-in-government-expenditure?tab=table&country=NLD~USA~GBR~CHN" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="color: grey; text-decoration: none;">
+          https://ourworldindata.org/grapher/share-of-education-in-government-expenditure?tab=table&country=NLD~USA~GBR~CHN
+        </a>
+      </p>
+      <p>
+        Different Stage of Education — 
+        <a href="https://ourworldindata.org/grapher/gender-gap-education-levels" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="color: grey; text-decoration: none;">
+          https://ourworldindata.org/grapher/gender-gap-education-levels
+        </a>
+      </p>
+      <p>
+        Graduate of Each Age Group  — 
+        <a href="https://archive.data.gov.my/data/dataset/number-of-graduates-by-age-group-and-sex-malaysia" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style="color: grey; text-decoration: none;">
+          https://archive.data.gov.my/data/dataset/number-of-graduates-by-age-group-and-sex-malaysia
+        </a>
+      </p>
     </div>
+
 
   </div>
   <!-- <div id="chropleth_map"></div> -->
