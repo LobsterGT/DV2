@@ -71,6 +71,27 @@
       "field": "Sex",
       "type": "nominal"
     },
+    "opacity": {
+    "condition": {
+      "test": "datum.AgeGroupLabel == '25 - 34'",
+      "value": 1
+    },
+    "value": 0.7
+  },
+    "stroke": {
+    "condition": {
+      "test": "datum.AgeGroupLabel == '25 - 34'",
+      "value": "red"
+    },
+    "value": null
+  },
+    "strokeWidth": {
+      "condition": {
+        "test": "datum.AgeGroupLabel == '25 - 34'",
+        "value": 2
+      },
+      "value": 0
+    },
     "xOffset": {
       "field": "Sex"
     },

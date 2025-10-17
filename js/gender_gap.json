@@ -5,7 +5,7 @@
     "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/data/gender_gap.csv"
   },
   "width": "container",
-  "height": 300,
+  "height": 310,
   "config": {
     "title": {
       "fontSize": 18,
