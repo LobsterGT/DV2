@@ -8,7 +8,7 @@
   },
     "config": {
     "title": {
-      "fontSize": 18,
+      "fontSize": 25,
       "font": "Serif"
     }
   },
@@ -18,7 +18,7 @@
         "url": "https://raw.githubusercontent.com/LobsterGT/DV2/refs/heads/main/js/graticule.json",
         "format": {"type": "topojson", "feature": "graticule"}
       },
-      "mark": {"type": "geoshape", "stroke": "grey"}
+      "mark": {"type": "geoshape", "stroke": "lightgrey"}
     },
     {
       "data": {

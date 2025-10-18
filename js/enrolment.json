@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Total Enrolment Of Different Stage Of Education",
+  "title": "Enrolment Of Different Education Stage",
   "width": "container",
   "height": 375,
   "config": {
     "title": {
-      "fontSize": 18,
+      "fontSize": 20,
       "font": "Serif"
     }
   },
